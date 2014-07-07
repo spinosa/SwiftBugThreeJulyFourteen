@@ -12,7 +12,15 @@ class ViewController: UIViewController {
                             
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        //As of Xcode Version 6.0 (6A216f), the following behaves incorrectly
+        //It should execute the else branch, but will actually crash with EXC_BAD_ACCESS
+        if let definatelyNil = Dog.returnNil() {
+            NSLog("***REPRODUCED BUG***")
+            NSLog("produce EXC_BAD_INSTRUCTION: \(definatelyNil)")
+        } else {
+            NSLog("bug has been fixed")
+        }
     }
 
     override func didReceiveMemoryWarning() {

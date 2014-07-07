@@ -12,6 +12,7 @@
 		9145563A1965942C006C30CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914556381965942C006C30CD /* Main.storyboard */; };
 		9145563C1965942C006C30CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9145563B1965942C006C30CD /* Images.xcassets */; };
 		914556481965942D006C30CD /* SwiftBugThreeJulyFourteenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914556471965942D006C30CD /* SwiftBugThreeJulyFourteenTests.swift */; };
+		914556541965BFA1006C30CD /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914556531965BFA1006C30CD /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		914556411965942D006C30CD /* SwiftBugThreeJulyFourteenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBugThreeJulyFourteenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		914556461965942D006C30CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		914556471965942D006C30CD /* SwiftBugThreeJulyFourteenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBugThreeJulyFourteenTests.swift; sourceTree = "<group>"; };
+		914556531965BFA1006C30CD /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				914556381965942C006C30CD /* Main.storyboard */,
 				9145563B1965942C006C30CD /* Images.xcassets */,
 				914556321965942C006C30CD /* Supporting Files */,
+				914556531965BFA1006C30CD /* Animal.swift */,
 			);
 			path = SwiftBugThreeJulyFourteen;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				914556371965942C006C30CD /* ViewController.swift in Sources */,
 				914556351965942C006C30CD /* AppDelegate.swift in Sources */,
+				914556541965BFA1006C30CD /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
